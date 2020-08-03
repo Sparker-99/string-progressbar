@@ -1,0 +1,27 @@
+{
+  "name": "string-progressbar",
+  "version": "1.0.1",
+  "description": "A simple progress bar generator using total and current values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparker-99/string-progressbar.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "eris",
+    "progress",
+    "bar",
+    "progress bar"
+  ],
+  "author": "Sparker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sparker-99/string-progressbar/issues"
+  },
+  "homepage": "https://github.com/Sparker-99/string-progressbar#readme"
+}
