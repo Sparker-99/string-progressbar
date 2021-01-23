@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/Sparker-99/string-progressbar/issues"
   },
-  "homepage": "https://github.com/Sparker-99/string-progressbar#readme"
+  "homepage": "https://github.com/Sparker-99/string-progressbar#readme",
+  "typings": "index.d.ts"
 }
