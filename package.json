@@ -1,6 +1,6 @@
 {
   "name": "string-progressbar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple progress bar generator using total and current values",
   "main": "index.js",
   "scripts": {
