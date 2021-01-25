@@ -1,6 +1,6 @@
 const createBar = (total, current, size = 40, line = '▬', slider = '🔘') => {
 	if (!total) throw new Error('Total value is either not provided or invalid');
-	if (!current) throw new Error('Current value is either not provided or invalid');
+	if (!current && current !== 0) throw new Error('Current value is either not provided or invalid');
 	if (isNaN(total)) throw new Error('Total value is not an integer');
 	if (isNaN(current)) throw new Error('Current value is not an integer');
 	if (isNaN(size)) throw new Error('Size is not an integer');
