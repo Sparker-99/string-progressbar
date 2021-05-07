@@ -1,4 +1,4 @@
-const splitbar = (total, current, size = 40, line = '▬', slider = '🔘') => {
+const splitBar = (total, current, size = 40, line = '▬', slider = '🔘') => {
 	if (!total) throw new Error('Total value is either not provided or invalid');
 	if (!current && current !== 0) throw new Error('Current value is either not provided or invalid');
 	if (isNaN(total)) throw new Error('Total value is not an integer');
@@ -20,7 +20,7 @@ const splitbar = (total, current, size = 40, line = '▬', slider = '🔘') => {
 	}
 };
 
-const filledbar = (total, current, size = 40, line = '□', slider = '■') => {
+const filledBar = (total, current, size = 40, line = '□', slider = '■') => {
 	if (!total) throw new Error('Total value is either not provided or invalid');
 	if (!current && current !== 0) throw new Error('Current value is either not provided or invalid');
 	if (isNaN(total)) throw new Error('Total value is not an integer');
@@ -43,6 +43,6 @@ const filledbar = (total, current, size = 40, line = '□', slider = '■') => {
 };
 
 module.exports = {
-	splitbar,
-	filledbar
+	splitBar,
+	filledBar
 };
