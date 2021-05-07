@@ -20,6 +20,7 @@
 * Simple
 * Lightweight
 * Fully customizable
+* 2 Different Styles
 
  ## Installation
 
@@ -27,22 +28,42 @@
 npm install string-progressbar
 ```
 
- ## Usage
+ ## Splitbar Usage
+ 
+![](https://i.ibb.co/5Yz89gM/splitbar.png)
 
 ``` js
-const createBar = require('string-progressbar');
-// assaign values to total and current
+const progressbar = require('string-progressbar');
+// Assaign values to total and current values
 var total = 100;
 var current = 50;
-// Call the createBar method, first two arguments are mandatory
-// size (length of bar) default to 40, line default to '▬' and slider default to 🔘
-createBar(total, current, size, line, slider);
-// There you go, now you have progress bar and percentage returned in an array as string
+// First two arguments are mandatory
+progressbar.splitbar(total, current, [options]);
+// Returns: Array<String, String>
 ```
 
-## Preview
+ ## Filledbar Usage
+ 
+![](https://i.ibb.co/ctTB8mp/filledbar.png)
 
-![Progress Bar](https://i.ibb.co/LvpsrFd/fg.png "Progress Bar")
+``` js
+const progressbar = require('string-progressbar');
+// Assaign values to total and current values
+var total = 100;
+var current = 50;
+// First two arguments are mandatory
+progressbar.filledbar(total, current, [options]);
+// Returns: Array<String, String>
+```
+
+## Optional Parameters
+
+|Parameter name|     Type|    Default|                         Description|
+|--------------|     ----|    :-----:|    --------------------------------|
+|size|            Integer|         40|    Determines the length of the bar|
+|line|             String|    ▬ and □|    Determines the Static part of the bar|
+|slider|           String|   🔘 and ■|    Determines the Progressive part of the bar|
+
 
 ## Links
 

@@ -1,15 +1,22 @@
 {
   "name": "string-progressbar",
-  "version": "1.0.3",
-  "description": "A simple progress bar generator using total and current values",
+  "version": "1.0.4",
+  "author": "Sparker",
+  "license": "MIT",
+  "description": "A simple progress bar generator using total progress and current progress values",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sparker-99/string-progressbar.git"
+    "url": "https://github.com/Sparker-99/string-progressbar"
   },
+  "bugs": {
+    "url": "https://github.com/Sparker-99/string-progressbar/issues"
+  },
+  "homepage": "https://github.com/Sparker-99/string-progressbar#readme",
   "keywords": [
     "discord",
     "discord.js",
@@ -17,12 +24,5 @@
     "progress",
     "bar",
     "progress bar"
-  ],
-  "author": "Sparker",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sparker-99/string-progressbar/issues"
-  },
-  "homepage": "https://github.com/Sparker-99/string-progressbar#readme",
-  "typings": "index.d.ts"
+  ]
 }
