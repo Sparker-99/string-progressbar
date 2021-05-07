@@ -38,7 +38,7 @@ const progressbar = require('string-progressbar');
 var total = 100;
 var current = 50;
 // First two arguments are mandatory
-progressbar.splitbar(total, current, [options]);
+progressbar.splitBar(total, current, [options]);
 // Returns: Array<String, String>
 ```
 
@@ -52,7 +52,7 @@ const progressbar = require('string-progressbar');
 var total = 100;
 var current = 50;
 // First two arguments are mandatory
-progressbar.filledbar(total, current, [options]);
+progressbar.filledBar(total, current, [options]);
 // Returns: Array<String, String>
 ```
 

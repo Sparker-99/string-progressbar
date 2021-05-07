@@ -1,7 +1,7 @@
-const { splitbar, filledbar } = require('string-progressbar');
+const { splitBar, filledBar } = require('string-progressbar');
 
-const split = splitbar(100, 50);
-const filled = filledbar(100, 50);
+const split = splitBar(100, 50);
+const filled = filledBar(100, 50);
 
 console.log("[" + split[0] + "] [" + split[1] + "%]\n\n");
 
