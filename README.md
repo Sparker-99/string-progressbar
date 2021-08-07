@@ -13,7 +13,7 @@
 
 ## About
 
-**String Progressbar** is a customizable progress bar generator manily made for discord bots that are made in [Discord.js](https://discord.js.org/) and [Eris](https://abal.moe/Eris/). It generates string so its pretty much usable everywhere.
+**String Progressbar** is a customizable progress bar generator mainly made for discord bots that are made in [Discord.js](https://discord.js.org/) and [Eris](https://abal.moe/Eris/). It generates string so it's pretty much usable everywhere.
 
 ## Advantages
 
